@@ -16,11 +16,14 @@ public class LinkedList5 {
         list.appendNode(10);
         list.appendNode(20);
         list.appendNode(30);
-
+        System.out.println("Linked List:");
         list.printList();
-
+        System.out.println("The length of the current list is: "+list.length);
+        System.out.println();
         list.deleteHead();
+        System.out.println("Printing Linked List after removing head");
         list.printList();
+        System.out.println("The length of the current list is: "+list.length);
     }
 
     private static class Node{
