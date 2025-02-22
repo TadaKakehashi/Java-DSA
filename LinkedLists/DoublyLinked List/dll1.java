@@ -26,6 +26,7 @@ public class dll1 {
         else{
             tail.next = newNode;
             newNode.prev = tail;
+            tail = newNode;
         }
         tail = newNode;
         length++;
