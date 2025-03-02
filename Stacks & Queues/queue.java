@@ -49,7 +49,7 @@ public class queue {
             Node temp = first;
             System.out.println("Queue: ");
             while(temp != null){
-                System.out.print(temp.value + " -> ");
+                System.out.print(temp.value + " <- ");
                 temp = temp.next;
             }
             System.out.println("null");
